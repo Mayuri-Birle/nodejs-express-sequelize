@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-express-sequelize",
+  "version": "1.0.0",
+  "description": "Simple job finding app for geeks",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayuri-Birle/nodejs-express-sequelize.git"
+  },
+  "author": "Mayuri-Birle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayuri-Birle/nodejs-express-sequelize/issues"
+  },
+  "homepage": "https://github.com/Mayuri-Birle/nodejs-express-sequelize#readme",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.3"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.6",
+    "nodemon": "^2.0.4"
+  }
+}
